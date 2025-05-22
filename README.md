@@ -20,7 +20,6 @@ First values: 0, 1, 0, 1, 1, 1, 1, 2, 2, 2, 3, ...
 1. **Clone and navigate to project directory:**
 ```bash
 git clone https://github.com/BrunoCastro13/Exercicio-Altice-Labs
-cd Altice-Labs
 ```
 
 2. **Run in development mode:**
@@ -41,12 +40,12 @@ cd Altice-Labs
 
 2. **Build Docker image:**
 ```bash
-docker build -f Dockerfile -t Altice-Labs .
+docker build -f Dockerfile -t altice-labs .
 ```
 
 3. **Run container:**
 ```bash
-docker run -i --rm -p 8080:8080 Altice-Labs
+docker run -i --rm -p 8080:8080 altice-labs
 ```
 
 ## API Documentation
