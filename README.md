@@ -19,8 +19,8 @@ First values: 0, 1, 0, 1, 1, 1, 1, 2, 2, 2, 3, ...
 
 1. **Clone and navigate to project directory:**
 ```bash
-git clone <repository>
-cd labseq-service
+git clone https://github.com/BrunoCastro13/Exercicio-Altice-Labs
+cd Altice-Labs
 ```
 
 2. **Run in development mode:**
