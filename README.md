@@ -41,12 +41,12 @@ cd Altice-Labs
 
 2. **Build Docker image:**
 ```bash
-docker build -f Dockerfile -t labseq-service .
+docker build -f Dockerfile -t Altice-Labs .
 ```
 
 3. **Run container:**
 ```bash
-docker run -i --rm -p 8080:8080 labseq-service
+docker run -i --rm -p 8080:8080 Altice-Labs
 ```
 
 ## API Documentation
